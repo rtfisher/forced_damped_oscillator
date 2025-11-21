@@ -48,6 +48,9 @@ Thumbs.db
 *.png
 *.jpg
 
+# Exceptions for documentation images
+!oscillator_snapshot.png
+
 # Jupyter
 .ipynb_checkpoints/
 

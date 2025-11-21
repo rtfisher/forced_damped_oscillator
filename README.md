@@ -4,6 +4,8 @@
 
 A unified Python toolkit for simulating and visualizing driven, damped oscillator systems including harmonic oscillators and nonlinear Duffing oscillators with chaotic dynamics.
 
+![Oscillator Simulation](oscillator_snapshot.png)
+
 ## Overview
 
 This package provides an interactive animation of oscillator systems with three synchronized visualization panels:
@@ -265,7 +267,7 @@ This project is licensed under the MIT License.
 ```
 MIT License
 
-Copyright (c) 2025 PHY313 Course Materials
+Copyright (c) 2025 Robert T. Fisher 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
