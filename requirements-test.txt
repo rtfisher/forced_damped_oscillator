@@ -1,0 +1,8 @@
+# Testing dependencies for oscillator simulation suite
+pytest>=7.0.0
+numpy>=1.20.0
+matplotlib>=3.5.0
+
+# Optional: for enhanced testing features
+pytest-xdist>=3.0.0  # parallel test execution
+pytest-timeout>=2.1.0  # timeout for long-running tests
