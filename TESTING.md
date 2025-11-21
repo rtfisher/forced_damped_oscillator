@@ -146,7 +146,7 @@ where ω_d = √(ω₀² - δ²/4)
 - Verifies no NaN or Inf values
 - Checks output shapes and energy positivity
 
-**CI/CD importance**: Ensures presets work on all platforms.
+**CI importance**: Ensures presets work on all platforms.
 
 ### 6. Numerical Stability Tests (`TestNumericalStability`)
 
@@ -286,7 +286,7 @@ def test_new_feature_convergence(self):
 4. Allow reasonable tolerance ranges
 5. Consider numerical precision limits
 
-## Continuous Integration
+## Continuous Integration (CI)
 
 The `.github/workflows/test.yml` workflow:
 - Runs on every push and PR

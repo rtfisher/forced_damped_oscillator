@@ -11,7 +11,7 @@ Tests cover:
 
 Uses theoretical convergence rates: RK4 is O(dt^4)
 
-Designed for pytest and GitHub Actions CI/CD
+Designed for pytest and GitHub Actions CI
 """
 
 import numpy as np

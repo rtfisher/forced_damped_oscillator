@@ -1,5 +1,7 @@
 # Oscillator Simulation Suite
 
+[![Test Suite](https://github.com/rtfisher/forced_damped_oscillator/actions/workflows/test.yml/badge.svg)](https://github.com/rtfisher/forced_damped_oscillator/actions/workflows/test.yml)
+
 A unified Python toolkit for simulating and visualizing driven, damped oscillator systems including harmonic oscillators and nonlinear Duffing oscillators with chaotic dynamics.
 
 ## Overview
