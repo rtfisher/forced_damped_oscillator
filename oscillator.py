@@ -205,7 +205,7 @@ def setup_visualization(x, v, alpha, beta, gamma, omega, dt):
     wall_x = 0.0
     wall_height = 0.6 * (Y_MAX - Y_MIN)
     ax_anim.plot([wall_x, wall_x], [-wall_height/2, wall_height/2], 'k-',
-                linewidth=3, label='Reference')
+                linewidth=3, label='Equilibrium')
 
     # Forcing function arrow (if driven)
     force_arrow = None
@@ -345,6 +345,11 @@ def create_animation(x, v, t, dt, alpha, beta, gamma, omega, frame_stride=2):
         i = frame_indices[frame_k]
         xi, vi = x[i], v[i]
         current_time = t[i]
+
+        # Clear trajectory data when animation loops back to start
+        if i == 0:
+            traj_x_data = []
+            traj_v_data = []
 
         # Update time display
         elements['time_text'].set_text(f't = {current_time:6.2f}')
